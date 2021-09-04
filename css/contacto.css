@@ -1,0 +1,107 @@
+h1, h2, h3, h4 {
+    margin: 0;
+}
+.column_50{
+    width: 49%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.group_title{
+    margin:15px 0;
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+.btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: orangered;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+}
+.column_text{
+    justify-content: space-between;
+}
+.contact .container_flex{
+    align-items: flex-start;
+}
+.column_title{
+    font-size: 1.3em;
+}
+.cursos{
+    background-color: white;
+}
+
+.contact_info{
+    padding: 10px;
+    padding-top:0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #de423a;
+}
+.contact_info .column_title{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+.contact_info[class*="icon-"]{
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    top: 5px;
+}
+.contact_info .social-icon{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.contact_info .social-icon [class*="icon-"]{
+    background: black;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.formulario{
+    padding: 10px;
+    padding-top: 0;
+}
+.formulario_label, .formulario_input-text, .formulario_textarea{
+    display: block;
+    width: 100%;
+}
+.formulario_input-text{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario_textarea{
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px; 
+}
+.formulario_btn{
+    border: none;
+    cursor:pointer;
+    font-size: 1em;
+}
+@media screen and (min-width:480){
+    .contact .container_flex{
+        align-items: flex-start;
+    }
+    .contact_info p {
+        font-size: .75em;
+    }
+    .contact_info{
+        border-right: 1px solid #de423a;
+        border-bottom: none;
+    }
+}
