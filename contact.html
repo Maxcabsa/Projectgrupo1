@@ -50,17 +50,17 @@
 
                 </div>
             </div>
-                <form class="formulario column column_50">
+                <form class="formulario column column_50" onsubmit="return validar()">
                     <h2 class="formulario_titulo">Ficha de Inscripción</h2>
-                    <input type="text" class="formulario_input-text">
+                    <input type="text" id="nombre" class="formulario_input-text">
                     <label for="" class="formulario_label">Nombre:</label>
-                    <input type="text" class="formulario_input-text">
+                    <input type="text" id="correo" class="formulario_input-text">
                     <label for="" class="formulario_label">Correo:</label>
-                    <input type="text" class="formulario_input-text">
+                    <input type="text" id="telefono1" class="formulario_input-text">
                     <label for="" class="formulario_label">Teléfono 1:</label>
-                    <input type="text" class="formulario_input-text">
+                    <input type="text" id="telefono2" class="formulario_input-text">
                     <label for="" class="formulario_label">Teléfono 2:</label>
-                    <input type="text" class="formulario_input-text">
+                    <input type="text" id="curso" class="formulario_input-text">
                     <label for="" class="formulario_label">Curso:</label>
                     <button onclick="enviar()">Enviar</button>
                 </form>
